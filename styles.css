@@ -1337,7 +1337,8 @@ p {
     .service-grid,
     .vehicle-showcase,
     .tourism-experiences {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        /* Keep 2 cols on Tablet */
     }
 
     .trust-grid {
@@ -1418,7 +1419,56 @@ p {
     }
 
     .journey-cards {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--spacing-sm);
+    }
+
+    .service-grid,
+    .vehicle-showcase,
+    .tourism-experiences {
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 Columns on mobile */
+        gap: var(--spacing-sm);
+    }
+
+    /* Reduce card content padding/size for 2-col layout */
+    .journey-card-content,
+    .vehicle-info,
+    .experience-content,
+    .service-card {
+        padding: 0.75rem;
+    }
+
+    .journey-card h3,
+    .vehicle-info h3,
+    .experience-content h3,
+    .service-card h3 {
+        font-size: 0.9rem;
+        /* Smaller titles */
+        margin-bottom: 0.25rem;
+    }
+
+    .journey-icon {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .vehicle-tag,
+    .experience-duration {
+        font-size: 0.65rem;
+        padding: 0.2rem 0.5rem;
+    }
+
+    .journey-card p,
+    .vehicle-info p,
+    .experience-content p,
+    .service-card p {
+        font-size: 0.75rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        /* Limit text lines */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
     }
 
     .student-feature {
