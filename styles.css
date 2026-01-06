@@ -1431,6 +1431,25 @@ p {
         gap: var(--spacing-sm);
     }
 
+    /* Restore Freedom on Demand (Rentals) to 1 column */
+    #service-rentals .service-grid {
+        grid-template-columns: 1fr;
+    }
+
+    #service-rentals .service-card {
+        padding: var(--spacing-xl);
+    }
+
+    #service-rentals .service-card h3 {
+        font-size: var(--font-size-2xl);
+        margin-bottom: var(--spacing-md);
+    }
+
+    #service-rentals .service-card p {
+        font-size: var(--font-size-base);
+        -webkit-line-clamp: unset;
+    }
+
     /* Reduce card content padding/size for 2-col layout */
     .journey-card-content,
     .vehicle-info,
