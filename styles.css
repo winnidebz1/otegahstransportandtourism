@@ -13,23 +13,23 @@
 }
 
 :root {
-    /* Color Palette - Calm Luxury */
-    --color-primary: #2C3E50;
-    --color-secondary: #D4AF37;
-    --color-accent: #8B7355;
+    /* Color Palette - Sea Blue & White */
+    --color-primary: #006994;
+    --color-secondary: #00B4D8;
+    --color-accent: #CAF0F8;
 
-    --color-bg-light: #FAF9F6;
+    --color-bg-light: #F0F8FA;
     --color-bg-white: #FFFFFF;
-    --color-bg-dark: #1A1A1A;
-    --color-bg-overlay: rgba(26, 26, 26, 0.5);
+    --color-bg-dark: #003049;
+    --color-bg-overlay: rgba(0, 48, 73, 0.5);
 
-    --color-text-primary: #2C3E50;
-    --color-text-secondary: #6B7280;
-    --color-text-light: #9CA3AF;
+    --color-text-primary: #003049;
+    --color-text-secondary: #335061;
+    --color-text-light: #98AAB3;
     --color-text-white: #FFFFFF;
 
-    --color-border: #E5E7EB;
-    --color-border-light: #F3F4F6;
+    --color-border: #E0F2F7;
+    --color-border-light: #EBF8FC;
 
     /* Typography */
     --font-serif: 'Cormorant Garamond', serif;
@@ -126,19 +126,19 @@ h4,
 h5,
 h6 {
     font-family: var(--font-serif);
-    font-weight: 500;
+    font-weight: 700;
     line-height: 1.2;
     color: var(--color-text-primary);
 }
 
 h1 {
     font-size: var(--font-size-5xl);
-    font-weight: 400;
+    font-weight: 700;
 }
 
 h2 {
     font-size: var(--font-size-4xl);
-    font-weight: 400;
+    font-weight: 700;
 }
 
 h3 {
@@ -360,7 +360,7 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%), url('C:/Users/Cornelius Debpuur/.gemini/antigravity/brain/f4901bff-ac6d-4ddf-8c48-7554dcf8745c/hero_coastal_drive_1767664456217.png');
+    background: linear-gradient(135deg, rgba(0, 105, 148, 0.4) 0%, rgba(0, 48, 73, 0.6) 100%), url('images/hero_bg.png');
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
@@ -518,7 +518,7 @@ p {
 }
 
 .story-img {
-    background: linear-gradient(135deg, rgba(102, 126, 234, 0.3) 0%, rgba(118, 75, 162, 0.3) 100%), url('C:/Users/Cornelius Debpuur/.gemini/antigravity/brain/f4901bff-ac6d-4ddf-8c48-7554dcf8745c/brand_story_driver_1767664478402.png');
+    background: linear-gradient(135deg, rgba(0, 105, 148, 0.1) 0%, rgba(0, 48, 73, 0.1) 100%), url('images/story_bg.png');
     background-size: cover;
     background-position: center;
 }
@@ -559,25 +559,25 @@ p {
 }
 
 .rentals-img {
-    background: url('C:/Users/Cornelius Debpuur/.gemini/antigravity/brain/f4901bff-ac6d-4ddf-8c48-7554dcf8745c/journey_rentals_1767664502909.png');
+    background: url('images/journey_rentals.png');
     background-size: cover;
     background-position: center;
 }
 
 .sales-img {
-    background: url('C:/Users/Cornelius Debpuur/.gemini/antigravity/brain/f4901bff-ac6d-4ddf-8c48-7554dcf8745c/journey_sales_1767664531294.png');
+    background: url('images/journey_sales.png');
     background-size: cover;
     background-position: center;
 }
 
 .student-img {
-    background: url('C:/Users/Cornelius Debpuur/.gemini/antigravity/brain/f4901bff-ac6d-4ddf-8c48-7554dcf8745c/journey_student_1767664556677.png');
+    background: url('images/journey_student.png');
     background-size: cover;
     background-position: center;
 }
 
 .tourism-img {
-    background: url('C:/Users/Cornelius Debpuur/.gemini/antigravity/brain/f4901bff-ac6d-4ddf-8c48-7554dcf8745c/journey_tourism_1767664581393.png');
+    background: url('images/journey_tourism.png');
     background-size: cover;
     background-position: center;
 }
@@ -714,19 +714,19 @@ p {
 }
 
 .family-vehicle {
-    background: url('C:/Users/Cornelius Debpuur/.gemini/antigravity/brain/f4901bff-ac6d-4ddf-8c48-7554dcf8745c/family_vehicle_1767664654615.png');
+    background: url('images/journey_student.png');
     background-size: cover;
     background-position: center;
 }
 
 .business-vehicle {
-    background: url('C:/Users/Cornelius Debpuur/.gemini/antigravity/brain/f4901bff-ac6d-4ddf-8c48-7554dcf8745c/business_vehicle_1767664736684.png');
+    background: url('images/journey_rentals.png');
     background-size: cover;
     background-position: center;
 }
 
 .adventure-vehicle {
-    background: url('C:/Users/Cornelius Debpuur/.gemini/antigravity/brain/f4901bff-ac6d-4ddf-8c48-7554dcf8745c/adventure_vehicle_1767664758006.png');
+    background: url('images/journey_tourism.png');
     background-size: cover;
     background-position: center;
 }
