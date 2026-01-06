@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Your journey doesn't start at the destination. It starts with who takes you there. Otegah's Transport & Tourism offers car rentals, car sales, student pickup services, and tourism experiences across Ghana.">
+    <title>Otegah's Transport & Tourism | Every Journey Has a Story</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚗</text></svg>">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-text">Otegah's</span>
+            </a>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#story" class="nav-link">Our Story</a></li>
+                <li><a href="#journeys" class="nav-link">Journeys</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="https://wa.me/233244591777" class="nav-cta" target="_blank">Book on WhatsApp</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-image">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title animate-fade-up">Every Journey Has a Story.</h1>
+            <p class="hero-subtitle animate-fade-up delay-1">From daily commutes to unforgettable travels, Otegah's
+                Transport & Tourism moves you with comfort, safety, and purpose.</p>
+            <div class="hero-ctas animate-fade-up delay-2">
+                <a href="#journeys" class="btn btn-primary">Explore Our Services</a>
+                <a href="https://wa.me/233244591777" class="btn btn-secondary" target="_blank">Book on WhatsApp</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Brand Story Section -->
+    <section class="brand-story" id="story">
+        <div class="container">
+            <div class="story-grid">
+                <div class="story-content">
+                    <span class="section-label">Our Story</span>
+                    <h2 class="section-title">Movement Shapes Life</h2>
+                    <div class="story-text">
+                        <p>Otegah's Transport & Tourism was built on a simple belief — movement shapes life.</p>
+                        <p>Whether it's a child getting to school safely, a family exploring Ghana, or a traveler
+                            discovering new paths, we exist to make every journey smooth and meaningful.</p>
+                        <p>We're not just about cars. We're about experiences, safety, and the stories that unfold along
+                            the way.</p>
+                    </div>
+                    <a href="#journeys" class="text-link">Discover your journey →</a>
+                </div>
+                <div class="story-image">
+                    <div class="image-wrapper">
+                        <div class="image-placeholder story-img"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey Selector Section -->
+    <section class="journey-selector" id="journeys">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Your Journey</span>
+                <h2 class="section-title">Where Is Your Journey Taking You?</h2>
+            </div>
+
+            <div class="journey-cards">
+                <div class="journey-card" data-journey="rentals">
+                    <div class="journey-card-image rentals-img"></div>
+                    <div class="journey-card-content">
+                        <span class="journey-icon">🚗</span>
+                        <h3>Everyday Mobility</h3>
+                        <p>Freedom on demand for business, family, and special moments</p>
+                        <button class="journey-link">Explore this journey →</button>
+                    </div>
+                </div>
+
+                <div class="journey-card" data-journey="sales">
+                    <div class="journey-card-image sales-img"></div>
+                    <div class="journey-card-content">
+                        <span class="journey-icon">🛒</span>
+                        <h3>Ownership & Independence</h3>
+                        <p>Your next chapter starts with the right vehicle</p>
+                        <button class="journey-link">Explore this journey →</button>
+                    </div>
+                </div>
+
+                <div class="journey-card" data-journey="student">
+                    <div class="journey-card-image student-img"></div>
+                    <div class="journey-card-content">
+                        <span class="journey-icon">🎓</span>
+                        <h3>Safe Daily Routines</h3>
+                        <p>Trust for what matters most — your child's safety</p>
+                        <button class="journey-link">Explore this journey →</button>
+                    </div>
+                </div>
+
+                <div class="journey-card" data-journey="tourism">
+                    <div class="journey-card-image tourism-img"></div>
+                    <div class="journey-card-content">
+                        <span class="journey-icon">🌍</span>
+                        <h3>Explore & Discover</h3>
+                        <p>Travel with intention across Ghana's beautiful landscapes</p>
+                        <button class="journey-link">Explore this journey →</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services as Experiences Section -->
+    <section class="services" id="services">
+        <div class="container">
+
+            <!-- Car Rentals -->
+            <div class="service-section" id="service-rentals">
+                <div class="service-header">
+                    <span class="section-label">Car Rentals</span>
+                    <h2 class="section-title">Freedom on Demand</h2>
+                    <p class="service-intro">Whether you need a vehicle for a business meeting, a family celebration, or
+                        a weekend getaway, we provide the freedom to move on your terms.</p>
+                </div>
+
+                <div class="service-grid">
+                    <div class="service-card">
+                        <h3>Business Travel</h3>
+                        <p>Professional vehicles for meetings, conferences, and corporate events</p>
+                        <ul class="service-features">
+                            <li>Executive sedans</li>
+                            <li>Flexible hourly/daily rates</li>
+                            <li>Professional appearance</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card">
+                        <h3>Family Moments</h3>
+                        <p>Spacious, comfortable vehicles for family trips and celebrations</p>
+                        <ul class="service-features">
+                            <li>SUVs & family vans</li>
+                            <li>Child seat options</li>
+                            <li>Ample luggage space</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card">
+                        <h3>Special Events</h3>
+                        <p>Make your special occasions memorable with the perfect ride</p>
+                        <ul class="service-features">
+                            <li>Weddings & parties</li>
+                            <li>Airport transfers</li>
+                            <li>Custom packages</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="service-cta">
+                    <a href="https://wa.me/233244591777" class="btn btn-primary" target="_blank">Request a Ride</a>
+                </div>
+            </div>
+
+            <!-- Car Sales -->
+            <div class="service-section" id="service-sales">
+                <div class="service-header">
+                    <span class="section-label">Car Sales</span>
+                    <h2 class="section-title">Your Next Chapter</h2>
+                    <p class="service-intro">Owning a vehicle is more than a purchase — it's a step toward independence,
+                        opportunity, and new possibilities.</p>
+                </div>
+
+                <div class="vehicle-showcase">
+                    <div class="vehicle-card">
+                        <div class="vehicle-image family-vehicle"></div>
+                        <div class="vehicle-info">
+                            <span class="vehicle-tag">Family-Ready</span>
+                            <h3>Family Vehicles</h3>
+                            <p>Spacious, safe, and built for everyday family life</p>
+                        </div>
+                    </div>
+
+                    <div class="vehicle-card">
+                        <div class="vehicle-image business-vehicle"></div>
+                        <div class="vehicle-info">
+                            <span class="vehicle-tag">Business-Smart</span>
+                            <h3>Professional Sedans</h3>
+                            <p>Make the right impression with executive vehicles</p>
+                        </div>
+                    </div>
+
+                    <div class="vehicle-card">
+                        <div class="vehicle-image adventure-vehicle"></div>
+                        <div class="vehicle-info">
+                            <span class="vehicle-tag">Adventure-Ready</span>
+                            <h3>SUVs & 4x4s</h3>
+                            <p>Built for Ghana's diverse terrain and adventures</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-features-block">
+                    <h3>Our Commitment to You</h3>
+                    <div class="features-grid">
+                        <div class="feature-item">
+                            <span class="feature-icon">✓</span>
+                            <p>Thorough vehicle inspection</p>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">✓</span>
+                            <p>Transparent pricing</p>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">✓</span>
+                            <p>Ownership guidance</p>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">✓</span>
+                            <p>After-sales support</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-cta">
+                    <a href="https://wa.me/233244591777" class="btn btn-primary" target="_blank">Inquire About
+                        Vehicles</a>
+                </div>
+            </div>
+
+            <!-- Student Pickup & Drop-off -->
+            <div class="service-section" id="service-student">
+                <div class="service-header">
+                    <span class="section-label">Student Services</span>
+                    <h2 class="section-title">Trust for What Matters Most</h2>
+                    <p class="service-intro">As a parent, nothing is more important than knowing your child is safe. Our
+                        student pickup and drop-off service is built on punctuality, reliability, and care.</p>
+                </div>
+
+                <div class="student-features">
+                    <div class="student-feature">
+                        <div class="feature-visual safety-visual"></div>
+                        <div class="feature-content">
+                            <h3>Safety First</h3>
+                            <p>Experienced, vetted drivers who understand the responsibility of caring for children</p>
+                        </div>
+                    </div>
+
+                    <div class="student-feature">
+                        <div class="feature-visual punctuality-visual"></div>
+                        <div class="feature-content">
+                            <h3>Always On Time</h3>
+                            <p>Consistent schedules you can depend on, morning and afternoon</p>
+                        </div>
+                    </div>
+
+                    <div class="student-feature">
+                        <div class="feature-visual peace-visual"></div>
+                        <div class="feature-content">
+                            <h3>Peace of Mind</h3>
+                            <p>Regular updates and communication so you always know your child is safe</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="route-info">
+                    <h3>Flexible Routes Across Accra</h3>
+                    <p>We serve families across Greater Accra with customized routes tailored to your needs. Monthly
+                        subscription packages available.</p>
+                </div>
+
+                <div class="service-cta">
+                    <a href="https://wa.me/233244591777" class="btn btn-primary" target="_blank">Inquire About Student
+                        Services</a>
+                </div>
+            </div>
+
+            <!-- Tourism Services -->
+            <div class="service-section" id="service-tourism">
+                <div class="service-header">
+                    <span class="section-label">Tourism & Travel</span>
+                    <h2 class="section-title">Travel with Intention</h2>
+                    <p class="service-intro">Ghana is a country of rich culture, stunning landscapes, and unforgettable
+                        experiences. Let us take you there.</p>
+                </div>
+
+                <div class="tourism-experiences">
+                    <div class="experience-card">
+                        <div class="experience-image coastal-experience"></div>
+                        <div class="experience-content">
+                            <h3>Coastal Escapes</h3>
+                            <p>Explore Ghana's beautiful coastline from Cape Coast to Ada</p>
+                            <span class="experience-duration">Full day experience</span>
+                        </div>
+                    </div>
+
+                    <div class="experience-card">
+                        <div class="experience-image cultural-experience"></div>
+                        <div class="experience-content">
+                            <h3>Cultural Heritage</h3>
+                            <p>Visit historical sites, castles, and cultural landmarks</p>
+                            <span class="experience-duration">Customizable itinerary</span>
+                        </div>
+                    </div>
+
+                    <div class="experience-card">
+                        <div class="experience-image nature-experience"></div>
+                        <div class="experience-content">
+                            <h3>Nature & Wildlife</h3>
+                            <p>Discover waterfalls, parks, and Ghana's natural beauty</p>
+                            <span class="experience-duration">Weekend adventures</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tourism-includes">
+                    <h3>What's Included</h3>
+                    <div class="includes-grid">
+                        <div class="include-item">
+                            <span class="include-icon">🚗</span>
+                            <p>Comfortable vehicle</p>
+                        </div>
+                        <div class="include-item">
+                            <span class="include-icon">👨‍✈️</span>
+                            <p>Experienced driver-guide</p>
+                        </div>
+                        <div class="include-item">
+                            <span class="include-icon">🗺️</span>
+                            <p>Custom itinerary</p>
+                        </div>
+                        <div class="include-item">
+                            <span class="include-icon">📸</span>
+                            <p>Photo opportunities</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-cta">
+                    <a href="https://wa.me/233244591777" class="btn btn-primary" target="_blank">Plan Your Journey</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Trust & Reliability Section -->
+    <section class="trust-section">
+        <div class="container">
+            <div class="section-header centered">
+                <span class="section-label">Why Choose Us</span>
+                <h2 class="section-title">Built on Trust & Reliability</h2>
+            </div>
+
+            <div class="trust-grid">
+                <div class="trust-item">
+                    <div class="trust-icon">👨‍✈️</div>
+                    <h3>Experienced Drivers</h3>
+                    <p>Professional, courteous drivers with years of experience</p>
+                </div>
+
+                <div class="trust-item">
+                    <div class="trust-icon">🔧</div>
+                    <h3>Well-Maintained Vehicles</h3>
+                    <p>Regular servicing and safety checks on all vehicles</p>
+                </div>
+
+                <div class="trust-item">
+                    <div class="trust-icon">⏰</div>
+                    <h3>Reliable Scheduling</h3>
+                    <p>On-time service you can depend on, every time</p>
+                </div>
+
+                <div class="trust-item">
+                    <div class="trust-icon">❤️</div>
+                    <h3>Families & Travelers Served</h3>
+                    <p>Trusted by hundreds of families and travelers across Ghana</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <div class="container">
+            <div class="section-header centered">
+                <span class="section-label">Simple Process</span>
+                <h2 class="section-title">How It Works</h2>
+            </div>
+
+            <div class="steps-grid">
+                <div class="step-item">
+                    <div class="step-number">01</div>
+                    <h3>Choose Your Journey</h3>
+                    <p>Select the service that fits your needs</p>
+                </div>
+
+                <div class="step-connector"></div>
+
+                <div class="step-item">
+                    <div class="step-number">02</div>
+                    <h3>Share Your Details</h3>
+                    <p>Tell us when, where, and what you need</p>
+                </div>
+
+                <div class="step-connector"></div>
+
+                <div class="step-item">
+                    <div class="step-number">03</div>
+                    <h3>Confirm & Relax</h3>
+                    <p>We'll handle the details and keep you updated</p>
+                </div>
+
+                <div class="step-connector"></div>
+
+                <div class="step-item">
+                    <div class="step-number">04</div>
+                    <h3>We Take You There</h3>
+                    <p>Enjoy a smooth, safe, and comfortable journey</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header centered">
+                <span class="section-label">Client Stories</span>
+                <h2 class="section-title">What Our Clients Say</h2>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"As a parent, I needed someone I could trust with my daughter's daily
+                        commute. Otegah's has been a blessing — always on time, always professional."</p>
+                    <div class="testimonial-author">
+                        <strong>Ama K.</strong>
+                        <span>Parent, East Legon</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"We rented a vehicle for our family reunion and the experience was
+                        seamless. The car was clean, comfortable, and perfect for our trip to Cape Coast."</p>
+                    <div class="testimonial-author">
+                        <strong>Kwame A.</strong>
+                        <span>Family Traveler</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Visiting Ghana for the first time, I wanted a guide who knew the
+                        culture and the roads. My driver was knowledgeable, friendly, and made the trip unforgettable."
+                    </p>
+                    <div class="testimonial-author">
+                        <strong>Sarah M.</strong>
+                        <span>Tourist from UK</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-content">
+                    <span class="section-label">Get in Touch</span>
+                    <h2 class="section-title">Start Your Journey Today</h2>
+                    <p>Whether you need a rental, want to purchase a vehicle, require student services, or are planning
+                        a tour across Ghana, we're here to help.</p>
+
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <span class="contact-icon">📱</span>
+                            <div>
+                                <strong>WhatsApp</strong>
+                                <p>024 459 1777</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <span class="contact-icon">📧</span>
+                            <div>
+                                <strong>Email</strong>
+                                <p>info@otegahs.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <span class="contact-icon">📍</span>
+                            <div>
+                                <strong>Location</strong>
+                                <p>Accra, Ghana</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/233244591777" class="btn btn-primary btn-large" target="_blank">Book on
+                        WhatsApp</a>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="rentals">Car Rentals</option>
+                                <option value="sales">Car Sales</option>
+                                <option value="student">Student Pickup & Drop-off</option>
+                                <option value="tourism">Tourism & Travel</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">Send Inquiry</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <span class="logo-text">Otegah's Transport & Tourism</span>
+                    </div>
+                    <p class="footer-tagline">Your journey doesn't start at the destination. It starts with who takes
+                        you there.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#service-rentals">Car Rentals</a></li>
+                        <li><a href="#service-sales">Car Sales</a></li>
+                        <li><a href="#service-student">Student Services</a></li>
+                        <li><a href="#service-tourism">Tourism & Travel</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#story">Our Story</a></li>
+                        <li><a href="#journeys">Your Journey</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="https://wa.me/233244591777" target="_blank">Book on WhatsApp</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>📱 024 459 1777</li>
+                        <li>📧 info@otegahs.com</li>
+                        <li>📍 Accra, Ghana</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Otegah's Transport & Tourism. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
